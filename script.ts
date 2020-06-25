@@ -76,5 +76,4 @@ function calcInventoryValue(inventory: InventoryItem[]): number{
 }
 
 let newInventoryTotal = calcInventoryValue(inventory);
-// let otherInventory = calcInventoryValue(products);
 console.log(newInventoryTotal);
